@@ -27,7 +27,7 @@ jobs:
           command: |
             TAG=$CIRCLE_BUILD_NUM
             ((TAG--))
-            git clone https://github.com/nchakra1/kube_menifest.git
+            git clone https://github.com/nchakra1-code/kube_menifest.git
             git config --global user.email "meniladri@gmail.com"
             git config --global user.name "nchakra1"
             pwd

@@ -12,7 +12,6 @@ This repository contains the code of the React application called ToDo-App. I've
 - Amazon EC2
 - Amazon Autoscaling 
 - Amazon S3
-- DynamoDB 
 
 ## Tech stack
 
