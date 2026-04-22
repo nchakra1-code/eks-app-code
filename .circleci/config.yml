@@ -23,7 +23,7 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
-          name: Updating Manifest file with updated repo 
+          name: Updating Manifest file 
           command: |
             TAG=$CIRCLE_BUILD_NUM
             ((TAG--))
