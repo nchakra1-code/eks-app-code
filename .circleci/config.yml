@@ -41,7 +41,7 @@ jobs:
             git commit -m "new build with imgTag build-$TAG"
             git config credential.helper 'cache --timeout=120'
             echo 'Committing to repo....'
-            git push -q https://x-access-token:$GITHUB_PERSONAL_TOKEN@github.com/nchakra1-code/kube_menifest.git main 
+            git push -q https://nchakra1-code:$GITHUB_PERSONAL_TOKEN@github.com/nchakra1-code/kube_menifest.git main 
 workflows:
   GitOpsflow:
     jobs:
