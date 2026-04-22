@@ -23,7 +23,7 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
-          name: Updating Manifest file 
+          name: Updating Manifest file with updated GITHUB_PERSONAL_TOKEN
           command: |
             TAG=$CIRCLE_BUILD_NUM
             ((TAG--))
